@@ -1,24 +1,18 @@
 #include<stdio.h>
-
-// funtion declaration
-
-void calculateprice (float value);
-
-int main (){
-   
-   float value = 100.0;
-   calculateprice( value);
-   printf(" value  is : %f\n", value );
-   
-
+#include<math.h>
+float powerN(int n,int num);
+int main(){
+   int n,num;
+   printf("Enter the number and power of number  : ");
+   scanf("%d %d",&n,&num);
+   printf("%d power of %d is %.0f \n",n,n,powerN(n,num));
    return 0;
 }
+float powerN(int n,int num){
+   
+   float power = pow(n,num);
+   return power;
+}
 
-// function defination
 
 
-void calculateprice (float value  ){
-    value = value + (value*0.8);
-    printf("final  value is %f\n", value );
-    
- } 
