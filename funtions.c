@@ -4,8 +4,8 @@ float powerN(int n,int num);
 int main(){
    int n,num;
    printf("Enter the number and power of number  : ");
-   scanf("%d %d",&n,&num);
-   printf("%d power of %d is %.0f \n",n,n,powerN(n,num));
+   scanf("%d %d",&num,&n);
+   printf("%d power of %d is %.0f \n",n,num,powerN(n,num));
    return 0;
 }
 float powerN(int n,int num){
