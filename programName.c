@@ -59,14 +59,15 @@
 //     }
 //     return x + sumN(x-1);
 //}
-#include<stdio.h>
-int main(){
-    int age = 22;
-    int *ptr = &age;
-    int _age = *ptr;
-    printf("%u", *ptr);
-    scanf("%d", &age);
-    __is_identifier(register_t);
-    return 0;
+// #include<stdio.h>
+// int main(){
+//     int age = 22;
+//     int *ptr = &age;
+//     int _age = *ptr;
+//     printf("%u", *ptr);
+//     scanf("%d", &age);
 
-}
+
+//     return 0;
+
+// }
