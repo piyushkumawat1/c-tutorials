@@ -35,8 +35,34 @@
 # pdf_path = '/Users/mac/Downloads/beginner_python_projects_full.pdf'
 # brute_force_pdf(pdf_path)
 # "There is nothing to say me that why i am here to say there java s"
-numbers = [1,2,3,4,5,6]
-def is_even(x) :
-    return x%2 ==0
-result = list(filter(is_even,numbers))
-print(result)
+# numbers = [1,2,3,4,5,6]
+# def is_even(x) :
+#     return x%2 ==0
+# result = list(filter(is_even,numbers))
+# print(result)
+gendar  = input("Enter the gender : ")
+gendar = gendar.upper()
+
+def male() :
+    age =  int(input("Enter your age : "))
+    if age >18 :
+        print("I suggest you may  take Mix drinks ")
+    elif 18 >age < 13 :
+        print(" Take a soft drinks ")
+
+    else :
+        print("Take only milks and Biscuits")
+def  female() :
+    print("welcome to Our Canteen\nYou have special discount 18% of in any things")
+    age =  int(input("Enter your age : "))
+    if age >18 :
+        print("I suggest you may  take Mix drinks ")
+    elif 18 >age < 13 :
+        print(" Take a soft drinks ")
+
+    else :
+        print("Take only milks and Biscuits")
+if gendar =="MALE" :
+    male()
+else :
+    female()
